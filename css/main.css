@@ -9,7 +9,7 @@ h1, h2 {
 }
 
 p {
-  max-width: 50rem;
+  max-width: 60rem;
   margin: 1.2rem 0 0 0;
   font-size: 1.5rem;
   font-family: sans-serif;
@@ -37,8 +37,8 @@ p a:hover {
 }
 
 .logo a {
-  color: #444;
-  background-color: #14b6ef;
+  color: #efefef;
+  background-color: #333;
   padding: .2rem 2rem;
   font-size: 4rem;
   font-weight: 700;
@@ -46,15 +46,11 @@ p a:hover {
   line-height: 200%;
 }
 
-.logo a:hover {
-  background-color: #14b6ef;
-}
-
 .content-container {
-  margin-top: 2rem;
+  margin-top: .5rem;
   margin-left: auto;
   margin-right: auto;
-  padding: .1rem 3rem;
+  padding: .1rem 6rem;
 }
 
 .content-container h2 {
@@ -65,16 +61,12 @@ p a:hover {
 }
 
 .main-container > footer {
-  margin: 4rem 0 .5rem 0;
+  margin: 2rem 0 .5rem 0;
 }
 
 .content {
   position: relative;
   margin-top: 2rem;
-}
-
-.content--about p {
-  margin-left: 2rem;
 }
 
 #react-container {
@@ -92,11 +84,8 @@ p a:hover {
   .main-container {
     width: 80%;
   }
-  .content--about h2 {
-    margin-left: 6.5rem;
-  }
-  .content--about p {
-    margin-left: 8.5rem;
+  .content__body {
+    margin-left: 2rem;
   }
 }
 
@@ -110,10 +99,7 @@ p a:hover {
   .main-container {
     width: 90%;
   }
-  .content--about h2 {
+  .content__body {
     margin-left: 1.5rem;
-  }
-  .content--about p {
-    margin-left: 2.5rem;
   }
 }

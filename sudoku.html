@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="description" content="Contractor based in UK." />
     <meta name="robots" content="noindex" />
-    <script defer src="/js/sudoku-bundle.js"></script>
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/main.css" />
+    <script defer src="js/sudoku-bundle.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rubik:700" />
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <title>sudoku application</title>
@@ -19,28 +19,30 @@
       <section class="content-container">
         <section class="content">
           <h2>sudoku</h2>
-          <div id="react-container"></div>
+          <div class="content__body">
+            <div id="react-container"></div>
 
-          <div>
-            <p>A new grid of numbers is generated at the start of every game.</p>
+            <div>
+              <p>Source code is available <a href="https://github.com/pc7/react-sudoku" target="_blank">on my GitHub account</a>.</p>
 
-            <p>Move the slider below the buttons to control how many squares in the next new game will have their numbers revealed.</p>
+              <p>A new grid of numbers is generated at the start of every game.</p>
 
-            <p>A number can be selected in an empty square by hovering the square, and selecting a number from the drop-down menu that appears. Numbers can be removed from these squares by selecting the 'none' value in the drop-down menu.</p>
+              <p>Move the slider below the buttons to control how many squares in the next new game will have their numbers revealed.</p>
 
-            <p>Only numbers that are not present (either as revealed squares or as user-selected squares) in the same row, column or 3x3 square, can be selected for an empty square.</p>
+              <p>A number can be selected in an empty square by hovering the square, and selecting a number from the drop-down menu that appears. Numbers can be removed from these squares by selecting the 'none' value in the drop-down menu.</p>
 
-            <p>As a result, if a wrong number is selected by the user, this will prevent the number being available to be put in its correct square.</p>
+              <p>Only numbers that are not present (either as revealed squares or as user-selected squares) in the same row, column or 3x3 square, can be selected for an empty square.</p>
 
-            <p>All wrong numbers entered by the user are removed when the 'remove incorrect entries' button is clicked. Only the correct numbers entered by the user will remain.</p>
+              <p>As a result, if a wrong number is selected by the user, this will prevent the number being available to be put in its correct square.</p>
 
-            <p>The game is won when all empty squares are filled with their correct numbers. The background of the empty squares will change colour when the game is won.</p>
+              <p>All wrong numbers entered by the user are removed when the 'remove incorrect entries' button is clicked. Only the correct numbers entered by the user will remain.</p>
 
-            <p>Source code is available <a href="https://github.com/pc7/react-sudoku" target="_blank">on my Github account</a></p>
+              <p>The game is won when all empty squares are filled with their correct numbers. The background of the empty squares will change colour when the game is won.</p>
 
-            <p><a href="/">Back to homepage.</a></p>
-
+              <p><a href="/">Back to homepage.</a></p>
+            </div>
           </div>
+        </section>
       </section>
       <footer>Copyright © Pete Cope 2017</footer>
     </section>
