@@ -40,7 +40,6 @@ p a:hover {
   color: #efefef;
   background-color: #333;
   padding: .2rem 2rem;
-  font-size: 4rem;
   font-weight: 700;
   letter-spacing: -0.1rem;
   line-height: 200%;
@@ -50,13 +49,11 @@ p a:hover {
   margin-top: .5rem;
   margin-left: auto;
   margin-right: auto;
-  padding: .1rem 6rem;
 }
 
 .content-container h2 {
   display: inline;
   color: #444;
-  font-size: 2.4rem;
   font-weight: 700;
 }
 
@@ -74,6 +71,15 @@ p a:hover {
 }
 
 @media (min-width: 700px) {
+  .logo a {
+    font-size: 4rem;
+  }
+  .content-container {
+    padding: .1rem 6rem;
+  }
+  .content-container h2 {
+    font-size: 2.4rem;
+  }
   .profile-pic {
     float: right;
     width: 150px;
@@ -86,6 +92,21 @@ p a:hover {
   }
   .content__body {
     margin-left: 2rem;
+  }
+}
+
+@media (max-width: 699px) {
+  .logo a {
+    font-size: 5rem;
+  }
+  .content-container {
+    padding: .1rem 3rem;
+  }
+  .content-container h2 {
+    font-size: 3rem;
+  }
+  .content__body p {
+    font-size: 2rem;
   }
 }
 
