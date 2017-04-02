@@ -100,7 +100,7 @@ p a:hover {
     font-size: 5rem;
   }
   .content-container {
-    padding: .1rem 3rem;
+    padding: .1rem .5rem;
   }
   .content-container h2 {
     font-size: 3rem;
